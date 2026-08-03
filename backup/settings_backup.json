@@ -1,0 +1,27 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\clara\\AppData\\Roaming\\uv\\python\\cpython-3.14.4-windows-x86_64-none\\python.exe",
+    "workbench.iconTheme": "material-icon-theme",
+    "chat.disableAIFeatures": true,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": true,
+    "sonarlint.ideLabsEnabled": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editor.empty.hint": "hidden",
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Nu Disco Dark",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "sonarlint.rules": {
+        "python:S905": {
+            "level": "off"
+        }
+    },
+    "editor.wordWrap": "on",
+    "editor.autoClosingBrackets": "always"
+}
