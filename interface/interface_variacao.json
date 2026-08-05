@@ -1,0 +1,76 @@
+variacao_temas = {
+    
+"Cyberpunk":[
+    
+    "Cyberpunk",
+    "Activate UMBRA protocol",
+    "Activate SCARLET protocol (beta)"
+    
+    
+    ],
+
+"Dark":[
+    
+    "NarutoDark"
+    
+    
+    ],
+
+"GitHub Theme":[
+    
+    "GitHub Light Default",
+    "GitHub Light High Contrast",
+    "GitHub Light Colorblind (Beta)",
+    "GitHub Dark Default",
+    "GitHub Dark High Contrast",
+    "GitHub Dark Colorblind (Beta)",
+    "GitHub Dark Dimmed",
+    "GitHub Light",
+    "GitHub Dark"
+       
+    ],
+
+"Naruto Shinobi Theme":[
+    
+    "Naruto Shinobi Night",
+    "Naruto Hokage Dawn",
+    "Naruto Akatsuki",
+    "Naruto Sasuke Uchiha - Sharingan",
+    "Naruto Kurama Nine-Tails",
+    "Naruto Sage Mode",
+    "Naruto Kakashi Copy Ninja",
+    "Naruto Might Guy Gates of Youth",
+    "Naruto Pain/Nagato - Rinnegan God",
+    "Naruto Jiraiya - Gallant Toad Sage",
+    "Naruto Sakura Haruno - Cherry Blossom Storm",
+    "Naruto Hinata Hyuga - Byakugan Vision",
+    "Naruto Might Guy - 8th Gate of Death",
+    "Naruto Itachi Uchiha - Tsukuyomi Dimension",
+    "Naruto Minato Namikaze - Yellow Flash",
+    "Naruto Kushina Uzumaki - Red Hot-Blooded Habanero",
+    "Naruto Shikamaru Nara - Shadow Strategist",
+    "Naruto Gaara - Desert Sand Guardian",
+    "Naruto Hashirama Senju - Wood Style Titan (First Hokage)",
+    "Naruto Tobirama Senju - Water Style Strategist (Second Hokage)",
+    "Naruto Madara Uchiha - 4th Great Ninja War",
+    "Naruto Madara Uchiha - Ten Tails Jinchuriki",
+    "Naruto Obito Uchiha - Ten Tails Jinchuriki",
+    "Naruto Uzumaki - Sage of Six Paths",
+    "Naruto Sasuke Uchiha - Sage of Six Paths"
+    
+    
+    ],
+
+"Nu Disco Theme":[
+    
+    "Nu Disco Dark",
+    "Nu Disco Light"
+   
+    ],
+
+"Panda Theme":[
+    "Panda Syntax"
+
+ ],
+    
+}
