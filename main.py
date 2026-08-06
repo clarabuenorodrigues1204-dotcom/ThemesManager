@@ -10,11 +10,13 @@ titulo = "THEMES MANAGER" #Mostra o título
 
 print(f'{titulo:=^40}')
 
-#Escolha do tema
+#Menu de opções de tema
 for i, tema in enumerate(temas.temas, start=1):#Mostra o tema
     print(f'[{i}] - {tema}')
 
+#Entrada/escolha do usuário
 opcao_usuario = int(input('\nQual é a opção desejada? '))
+print( "-" * 40)
 
 #Validação da escolha do tema
 while True:   
@@ -34,8 +36,11 @@ while True:
 tema_escolhido = list(temas.temas)[opcao_usuario -1]   
      
 #Escolha da variação do tema
-
 variacao_escolhida = interface_variacao.escolha_variacao(tema_escolhido)
+print( "-" * 40)
+
 print(f'Variação escolhida: {variacao_escolhida}')
 print('Aplicando....')
 sleep(1)
+
+#Alteração do arquivo config.json

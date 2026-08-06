@@ -12,6 +12,7 @@ def escolha_variacao(tema_escolhido):
             
     while True:
         try:
+            print( "-" * 40)
             variacao = int(input('Escolha uma variação de tema: '))
             
             if 1 <= variacao <= len(variacoes_disponiveis):
