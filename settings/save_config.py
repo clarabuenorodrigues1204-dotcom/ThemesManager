@@ -1,5 +1,7 @@
 import json
 
+#Função responsável por atualizar e salvar a escolha do usuário
+
 def salvar_config(tema_escolhido , variacao_escolhida):
     with open("json/config.json" , "r" , encoding= "utf-8") as arquivo:
         config = json.load(arquivo)
