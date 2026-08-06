@@ -1,5 +1,4 @@
 import json
-from dados import temas
 
 def escolha_variacao(tema_escolhido):
 
@@ -10,18 +9,23 @@ def escolha_variacao(tema_escolhido):
         for indice, variacao in enumerate(variacoes_disponiveis, start=1):
             print(f'{indice} - {variacao}')
             
+    
+    #Validação da escolha do usuário em relação a variação de temas
     while True:
         try:
             print( "-" * 40)
             variacao = int(input('Escolha uma variação de tema: '))
             
             if 1 <= variacao <= len(variacoes_disponiveis):
-                return variacao
+                variacao_escolhida = variacoes_disponiveis[variacao - 1]
+                print(f'Você escolheu: {variacao_escolhida}')
+                return variacao_escolhida
         
             print('Opção Inválida!')
             
         except ValueError:
             print('Digite apenas números!')
+            
 
             
         

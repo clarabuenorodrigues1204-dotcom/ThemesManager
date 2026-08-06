@@ -5,6 +5,7 @@ from time import sleep
 import dados.temas as temas
 import json
 from interface import interface_variacao
+from settings.save_config import salvar_config
 
 titulo = "THEMES MANAGER" #Mostra o título
 
@@ -35,12 +36,15 @@ while True:
         
 tema_escolhido = list(temas.temas)[opcao_usuario -1]   
      
-#Escolha da variação do tema
+
+#Alteração do arquivo config.json
+
 variacao_escolhida = interface_variacao.escolha_variacao(tema_escolhido)
 print( "-" * 40)
-
 print(f'Variação escolhida: {variacao_escolhida}')
 print('Aplicando....')
 sleep(1)
 
-#Alteração do arquivo config.json
+
+salvar_config(tema_escolhido , variacao_escolhida)
+
