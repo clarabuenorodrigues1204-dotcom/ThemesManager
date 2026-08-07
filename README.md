@@ -1,3 +1,14 @@
+# ⚠️ Aviso Importante
+
+Este projeto ainda está em desenvolvimento.
+
+Por estar em uma fase inicial, podem ocorrer **bugs, comportamentos inesperados ou funcionalidades incompletas** durante o uso.
+
+Caso encontre algum problema, sugestão ou melhoria, fique à vontade para abrir uma *issue* ou entrar em contato. Todo feedback é bem-vindo e ajuda no crescimento do projeto.
+
+Obrigado por acompanhar o desenvolvimento! 🚀
+
+---
 # 🎨 ThemeManager
 
 Um gerenciador de temas para o Visual Studio Code desenvolvido em Python.
