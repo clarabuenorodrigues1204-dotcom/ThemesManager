@@ -47,16 +47,34 @@ Esta é a **versão 1.0** do ThemeManager, desenvolvida inteiramente em Python u
 ## 📁 Estrutura do projeto
 
 ```text
-ThemeManager
+ThemeManager/
 │
-├── dados
-├── docs
-├── interface
-├── json
-├── settings
+├── dados/
+│   └── temas.py
+│
+├── docs/
+│   ├── funcionamento.md
+│   ├── roadmap.md
+│   ├── ideias.md
+│   └── decisoes.md
+│
+├── interface/
+│   └── interface_temas.py
+│   └── interface_variacao.json
+│   └── interface_variacao.py
+│
+├── json/
+│   ├── config.json
+│   └── settings.json
+│
+├── settings/
+│   └── save_config.py
+│   └── vscode_config.py
 │
 ├── main.py
-└── README.md
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ---
