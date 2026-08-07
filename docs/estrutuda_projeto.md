@@ -12,6 +12,19 @@ Contém os dados principais utilizados pelo sistema, como a lista de temas dispo
 
 ---
 
+## docs/
+
+Contém a documentação do projeto.
+
+Arquivos:
+
+- `funcionamento.md`
+- `roadmap.md`
+- `ideias.md`
+- `decisoes.md`
+
+---
+
 ## interface/
 
 Responsável pelo gerenciamento da interação com o usuário e armazenamento das variações dos temas.
@@ -35,13 +48,14 @@ Exemplos:
 
 ---
 
-## docs/
+## settings/
 
-Contém a documentação do projeto.
+Responsável pelo gerenciamento das configurações do ThemeManager e da integração com o VS Code.
 
-Arquivos:
+Contém as funções responsáveis por:
 
-- `funcionamento.md`
-- `roadmap.md`
-- `ideias.md`
-- `decisoes.md`
+- Ler o arquivo `config.json`.
+- Salvar alterações nas chaves `tema_atual` e `variacao_atual`, mantendo o controle das escolhas realizadas pelo usuário.
+- Ler o arquivo `settings.json` do VS Code.
+- Salvar alterações nas configurações do editor de código `Visual Studio Code `.
+- Alterar o tema do VS Code através da chave `workbench.colorTheme`.
