@@ -71,9 +71,9 @@ python main.py
 ---
 
 ## 📸 Demonstração
-#### Menu de Temas
+#### Menu de Temas:
 ![Demonstração do ThemeManager - Menu de escolha de tema](assets/imagens/theme-manager-v1.png)
-#### Menu de Variação de Temas
+#### Menu de Variação de Temas:
 ![Demonstração do ThemeManager - Menu de escolha de variação de tema](assets/imagens/theme-manager-variacao-v1.png)
 ---
 
