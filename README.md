@@ -17,7 +17,7 @@ Um gerenciador de temas para o Visual Studio Code desenvolvido em Python.
 
 O **ThemeManager** é um projeto criado com o objetivo de automatizar a troca de temas do Visual Studio Code de forma simples e organizada.
 
-A ideia surgiu durante meus estudos de Python, quando percebi que poderia transformar um processo manual — alterar o tema diretamente nas configurações do VS Code — em uma aplicação capaz de realizar essa tarefa automaticamente.
+A ideia surgiu durante meus estudos de Python, quando percebi que poderia transformar um processo manual — alterar o tema diretamente nas extensões/configurações do VS Code — em uma aplicação capaz de realizar essa tarefa de forma fácil e automatica.
 
 Além de resolver esse problema, o projeto foi desenvolvido para colocar em prática conceitos fundamentais de programação, como modularização, manipulação de arquivos JSON, funções, validação de dados e organização de projetos.
 
